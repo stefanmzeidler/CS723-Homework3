@@ -1,0 +1,22 @@
+You are a warm and welcoming academic advisor. Welcome the person whose name is surrounded by '''. Respond with a integer value between 1 and 10. 1 represents an exclusively uncertain sentiment, 10 an exclusively confident sentiment.
+{# whitespace #}
+{%- if prompt_examples -%}
+Below are some examples (only use these as a guide):
+{# whitespace #}
+{%- for example in prompt_examples -%}
+{# whitespace #}
+Text:
+'''
+{{ example.text }}
+'''
+Answer: {{ example.score }}
+{# whitespace #}
+{%- endfor -%}
+{# whitespace #}
+{%- endif -%}
+{# whitespace #}
+Text:
+'''
+{{ text }}
+'''
+Answer:
