@@ -1,102 +1,66 @@
-import enum
 import pandas as pd
-from transitions import Machine, State, EventData
-from enum import Enum, auto
-from sessionlogger import SessionLogger
+from transitions import Machine, State
+import time
 from task_manager import TaskManager
 
 
 class AcademicAdvisor(Machine):
     def __init__(self):
-        # self.session_logger = SessionLogger()
         self.task_manager = TaskManager()
         self.user_db = pd.read_csv("Users.csv")
         self.log = []
-        Machine.__init__(self, states=self.load_states(), initial='INITIAL_DUMMY', send_event=True,
+        Machine.__init__(self, initial='INITIAL_DUMMY', send_event=True,
                          on_final='remove_from_machine')
-        self.apply_transitions()
+        self.load_states()
+        self.load_transitions()
         self.user_name = None
+        self.plan = None
+
 
     def load_states(self):
-        states = [
-            'START',
-            'IDEA_CHECK',
-            'SMART_PLANNING',
-            'BEHAVIOR_MENU',
-            'CHECK_IN_OFFER',
-            'COMMITMENT_STATEMENT',
-            'SUCCESS_REFLECTION',
-            'CHECK_ON_PROGRESS',
-            'GOODBYE']
-        return [State(state) for state in states]
+        self.add_state(State('START'))
+        self.add_state(State('IDEA_CHECK'))
+        self.add_state(State('SMART_PLANNING'))
+        self.add_state(State('BEHAVIOR_MEN'))
+        self.add_state(State('CHECK_IN_OFFER'))
+        self.add_state(State('COMMITMENT_STATEMENT'))
+        self.add_state(State('SUCCESS_REFLECTION'))
+        self.add_state(State('CHECK_ON_PROGRESS'))
+        self.add_state(State('GOODBYE'))
+        self.add_state(State(name = 'FINAL_DUMMY', final = True))
 
-    def apply_transitions(self):
+
+    def load_transitions(self):
 
         self.add_transition('run', 'INITIAL_DUMMY', 'START', after='get_name')
         self.add_transition('begin_session', 'START', 'IDEA_CHECK')
         self.on_enter_IDEA_CHECK('get_user_intention')
         self.add_transition('re_enter', '*', '=')
-        self.add_transition('generate_behavior_menu','IDEA_CHECK', 'BEHAVIOR_MENU')
-        # self.add_transition('get_name', self.States.IDEA_CHECK, self.get_name)
+        self.add_transition('generate_behavior_menu',['IDEA_CHECK','SUCCESS_REFLECTION'], 'BEHAVIOR_MENU')
         self.on_enter_BEHAVIOR_MENU('get_user_idea_choice')
-        # transitions = [['run', self.States.INITIAL_DUMMY.value, self.States.START.value, {'after':'get_name'}],
-        #                ['proceed_to_ideas', self.States.START.value, self.States.IDEA_CHECK.value,],#{'after': 'get_user_intention'}
-        #                ['help_plan',self.States.IDEA_CHECK.value,self.States.SMART_PLANNING.value],
-        #                ['suggest_ideas',self.States.IDEA_CHECK.value,self.States.BEHAVIOR_MENU.value],
-        #                ['offer_check_in',self.States.IDEA_CHECK.value,self.States.CHECK_IN_OFFER.value],
-        #                ['offer_check_in',self.States.IDEA_CHECK.value,self.States.CHECK_IN_OFFER.value],
-        #                ['re_enter', '*', '=']]
+        self.add_transition('help_plan', ['IDEA_CHECK','BEHAVIOR_MENU','SUCCESS_REFLECTION'], 'SMART_PLANNING', after = 'get_plan_details')
+        self.add_transition('get_commitment', ['CONFIDENCE_CHECK', 'SUCCESS_REFLECTION'], 'BEHAVIOR_MENU')
+        self.add_transition('restart_advisor', 'GOODBYE', 'START', after = 'begin_session')
+        self.add_transition('offer_check_in', ['BEHAVIOR_MENU', 'IDEA_CHECK'], 'CHECK_IN_OFFER')
 
-
-    class States(Enum):
-        # ERROR = State(name='error', on_enter = 'handle_error')
-        # INITIAL_DUMMY = State(name='initial_dummy')
-        # START = State(name='start')
-        # IDEA_CHECK = State(name='idea_check', on_enter=['print_string'])
-        # SMART_PLANNING = State(name='smart_planning', on_enter = 'get_goal_information')
-        # BEHAVIOR_MENU = State(name='behavior_menu')
-        # CHECK_IN_OFFER = State(name='check_in_offer')
-        # COMMITMENT_STATEMENT = State(name='commitment_statement')
-        # SUCCESS_REFLECTION = State(name='success_reflection')
-        # CHECK_ON_PROGRESS = State(name='check_on_progress')
-        # GOODBYE = State(name='goodbye')
-        # FINAL_DUMMY = State(name='final_dummy', final=True)
-        INITIAL_DUMMY = auto()
-        START = auto()
-        IDEA_CHECK = auto()
-        SMART_PLANNING = auto()
-        BEHAVIOR_MENU = auto()
-        CHECK_IN_OFFER = auto()
-        COMMITMENT_STATEMENT = auto()
-        SUCCESS_REFLECTION = auto()
-        CHECK_ON_PROGRESS = auto()
-        GOODBYE = auto()
-        FINAL_DUMMY = auto()
-
-        @classmethod
-        def values(cls):
-            return [member.value for member in cls]
+    def get_plan_details(self):
+        self.plan = self.log_interaction("With your permission, may I ask more details? What, When, Where, How often, and Start Date?")
 
     def log_interaction(self, text):
         self.log.append("Advisor: " + text)
         response = input(text)
         self.log.append("Student: " + response)
-        print(self.log)
         return response
 
     def log_output(self, text):
-        self.log.append(text)
+        self.log.append("Advisor: " + text)
         print(text)
 
     def get_name(self, event):
         self.user_name = self.log_interaction("Please enter your name: ")
         self.begin_session(first_run=True)
 
-    def print_string(self):
-        print("HI")
-
     def get_user_intention(self, event):
-        # print("Are there any academic goals you would like to achieve in the next week or two?")
         if event.transition.source != self.state:
             self.log_output(self.task_manager.get_user_intention(self.user_name, event.kwargs.get('first_run')))
         response = self.log_interaction("Please enter yes, no, or not sure:\n")
@@ -113,6 +77,10 @@ class AcademicAdvisor(Machine):
                 self.re_enter()
 
     def remove_from_machine(self, event=None):
+        with open('log.txt', 'a') as file:
+            file.write(time.ctime())
+            for line in self.log:
+                file.write(line)
         self.remove_model(self)
         print("Model removed")
 
@@ -124,14 +92,7 @@ class AcademicAdvisor(Machine):
         idea_selection = self.task_manager.verify_ideas(ideas,response)
         print(idea_selection)
 
-
-
-
     def handle_error(self, event):
+        print("an error has occurred")
         print(event.error)
-
-
-def main():
-    my_machine = AcademicAdvisor()
-
-# main()
+        self.remove_from_machine(event)

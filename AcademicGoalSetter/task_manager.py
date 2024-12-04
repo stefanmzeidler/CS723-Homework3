@@ -18,7 +18,6 @@ class TaskManager:
         return doc._.sentiment
 
     def get_user_intention(self, name, first_run):
-
         if first_run:
             greet = "Greet them by name."
         else:
