@@ -1,16 +1,34 @@
 import spacy
+from spacy_llm.util import assemble
+from spacy_llm.pipeline import LLMWrapper
+from spacy.lang.en import English
+import torch
+import blobfile
+import transformers
+import sentencepiece
+import transformers.models.llama.modeling_llama as modeling_llama
+import numpy as np
 
-from AcademicAdvisor import AcademicAdvisor
-import os
-import openai
-from dotenv import load_dotenv
+def embeddings_tester(text):
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp(text)
+    for ent in doc.ents:
+        if ent.label_ == 'DATE':
+            print("true")
+            return
+    print("false")
+    # for token in doc:
+    #     print(token.text)
+    #     print(token.pos_)
+
+    # displacy.render(doc, style="dep", options={"distance": 100}, jupyter=True)
+
+
 
 def main():
-    load_dotenv()
-    key = os.getenv("OPENAI_API_KEY")
-    if key is None:
-        raise RuntimeError("Please set OPENAI_API_KEY environment variable")
-    openai.api_key = key
-    my_advisor = AcademicAdvisor()
-    my_advisor.run()
+    sentiment = assemble("Config/sentiment.cfg")
+    doc = sentiment("I am very happy")
+    print(doc.sentiment)
+
+    # llm = LLMWrapper(vocab=nlp.vocab, task =task, model=["open_llama_3b", "open_llama_7b", "open_llama_7b_v2", "open_llama_13b"], cache = None, save_io = False)
 main()
