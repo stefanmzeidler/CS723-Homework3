@@ -270,7 +270,7 @@ class AcademicAdvisor(Machine):
         transitions them to BEHAVIOR_MENU. If they are confident, transitions to CHECK_IN_OFFER
         :param event: Users the intenrnal attribute event.event.name to check if the module is being repeated. If it is,
         then transition to BEHAVIOR_MENU. If it is not, and confidence < 7, then asks for them to brainstorm
-        someconfidence boosting ideas.
+        some confidence boosting ideas.
         """
         confidence = self.check_if_response_is_valid_integer("On a scale of 1 to 10, how confident are you in your plan?", range(1, 11))
         if confidence >= 7:
