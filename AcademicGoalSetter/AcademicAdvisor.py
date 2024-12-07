@@ -148,6 +148,7 @@ class AcademicAdvisor(Machine):
                 self.log_output(idea)
             self.log_output("Please let me know which one you would like!")
             choice = self.check_if_response_is_valid_integer("Enter the integer corresponding to the idea.", range(1, len(ideas) + 1))
+            choice = choice - 1
             idea = ideas[choice]
             results = re.search(r"[^a-zA-Z]+(.+)", idea)
             idea = results.group(1)
