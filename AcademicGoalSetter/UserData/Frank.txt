@@ -1,0 +1,336 @@
+Session start: Fri Dec  6 21:24:46 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: It's nice to meet you!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: not sure
+Advisor: If you're not sure, I can suggest some ideas:
+Advisor: 1. Set aside a specific time to study and work on assignments
+Advisor: 2. Go to the CEAS tutoring center in the library
+Advisor: 3. Find and apply for internships
+Advisor: Please let me know which one you would like!
+Advisor: Enter the integer corresponding to the idea.
+Student: 4
+Advisor: Sorry, that number isn't valid.
+Advisor: Enter the integer corresponding to the idea.
+Student: 0
+Advisor: Sorry, that number isn't valid.
+Advisor: Enter the integer corresponding to the idea.
+Student: fff
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: Enter the integer corresponding to the idea.
+Student: 2
+Advisor: Goals are a lot easier to achieve when they are clearly defined.
+A good method is to make sure that your goals are SMART.
+SMART means that goals should be Specific, Measurable, Achievable, Relevant, and Time-Bound.
+I'd like to ask you a few more questions about your idea.
+Advisor: Can you give a specific action you want to take?
+Student: I want to go study at the turo
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: Fridays
+Advisor: Where do you want to do this?
+Student: No
+Advisor: How often do you want to do this?
+Student: No
+Advisor: What date do you want to start?
+Student: No
+Advisor: I'm sorry, but that doesn't seem like a date.
+Advisor: What date do you want to start?
+Student: October 8th
+Advisor: That sounds like a great plan!
+Advisor: Could you share a statement of commitment for this plan?
+Student: Commit
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: nope
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 8
+Advisor: That's great to hear!
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: Not sleeping.
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: Never sleep
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: goodbye
+Advisor: It was great meeting with you today,Frank.
+Advisor: Please let me know if you need any additional help or if you would like to end the session for today
+Advisor: Please enter 'help' or 'end'
+Student: help
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: I'm sorry, I didn't quite understand that.
+Session start: Fri Dec  6 21:34:11 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Session start: Fri Dec  6 21:37:52 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: nothing
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: nothing
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: goodbye
+Advisor: It was great meeting with you today,Frank.
+Advisor: Please let me know if you need any additional help or if you would like to end the session for today
+Advisor: Please enter 'help' or 'end'
+Student: help
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: exit
+Advisor: Sorry, I didn't understand that
+Advisor: Enter 'challenges' or 'successes'
+Session start: Fri Dec  6 21:40:03 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: exit
+Advisor: I'm sorry, I didn't quite understand that.
+Session start: Fri Dec  6 21:43:48 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: fff
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: sdfsdf
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: new goal
+Session start: Fri Dec  6 21:47:08 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: fff
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: fff
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: new goal
+Session start: Fri Dec  6 21:47:58 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: fff
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: ffff
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: new goal
+Advisor: That's great! What is your idea?
+Student: fffffff
+Advisor: That sounds like a great plan!
+Advisor: Goals are a lot easier to achieve when they are clearly defined.
+A good method is to make sure that your goals are SMART.
+SMART means that goals should be Specific, Measurable, Achievable, Relevant, and Time-Bound.
+I'd like to ask you a few more questions about your idea.
+Advisor: Goodbye!
+Session end: Fri Dec  6 21:48:15 2024
+Advisor: Can you give a specific action you want to take?
+Session start: Fri Dec  6 21:48:55 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: No
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: I'm glad to hear that you've been having success with your plan!
+Advisor: What do you think contributed to this success?
+Student: I studied hard
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: Great
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: suggest ideas
+Advisor: If you're not sure, I can suggest some ideas:
+Advisor: 1. Set aside a specific time to study and work on assignments
+Advisor: 2. Go to the CEAS tutoring center in the library
+Advisor: 3. Go to office hours to get help from your professor
+Advisor: Please let me know which one you would like!
+Advisor: Goodbye!
+Session end: Fri Dec  6 21:49:24 2024
+Advisor: Enter the integer corresponding to the idea.
+Session start: Fri Dec  6 22:24:05 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: Would you like to have a check-in to see how your goal is progressing?
+Advisor: Please enter 'yes' or 'no'
+Student: no
+Advisor: It was great meeting with you today,Frank.
+Advisor: Please let me know if you need any additional help or if you would like to end the session for today
+Advisor: Please enter 'help' or 'end'
+Student: help
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: Would you like to have a check-in to see how your goal is progressing?
+Advisor: Please enter 'yes' or 'no'
+Student: yes
+Session start: Fri Dec  6 22:25:07 2024
+Type 'exit' to end
+Advisor: Hi, Frank!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: no
+Advisor: Would you like to have a check-in to see how your goal is progressing?
+Advisor: Please enter 'yes' or 'no'
+Student: yes
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Advisor: That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!
+Student: Oh noooo
+Advisor: You should keep these things in mind going forward, and I hope you experience even more success!
+Advisor: Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today
+Advisor: Please enter 'new goal', 'suggest ideas', or 'goodbye'
+Student: goodbye
+Advisor: It was great meeting with you today,Frank.
+Advisor: Please let me know if you need any additional help or if you would like to end the session for today
+Advisor: Please enter 'help' or 'end'
+Student: end
+Advisor: Goodbye!
+Session end: Fri Dec  6 22:25:25 2024

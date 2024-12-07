@@ -1,0 +1,177 @@
+Session start: Fri Dec  6 21:16:44 2024
+Type 'exit' to end
+Advisor: Hi, Stefan!
+Advisor: It's nice to meet you!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: Yes
+Advisor: That's great! What is your idea?
+Student: I want to study for finals.
+Advisor: That sounds like a great plan!
+Advisor: Goals are a lot easier to achieve when they are clearly defined.
+A good method is to make sure that your goals are SMART.
+SMART means that goals should be Specific, Measurable, Achievable, Relevant, and Time-Bound.
+I'd like to ask you a few more questions about your idea.
+Advisor: Can you give a specific action you want to take?
+Student: I want to study for my algorithm design final.
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: Every day after school.
+Advisor: I'm sorry, but that doesn't seem like a time or isn't specific enough (capitalization is important).
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: Every day.
+Advisor: I'm sorry, but that doesn't seem like a time or isn't specific enough (capitalization is important).
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: Everyday after school.
+Advisor: I'm sorry, but that doesn't seem like a time or isn't specific enough (capitalization is important).
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: On Tuesdays after class.
+Advisor: Where do you want to do this?
+Student: In the library.
+Advisor: How often do you want to do this?
+Student: I'm hungry.
+Advisor: What date do you want to start?
+Student: I'm hungry.
+Advisor: I'm sorry, but that doesn't seem like a date.
+Advisor: What date do you want to start?
+Student: On the 9th.
+Advisor: I'm sorry, but that doesn't seem like a date.
+Advisor: What date do you want to start?
+Student: On December 9th.
+Advisor: That sounds like a great plan!
+Advisor: Could you share a statement of commitment for this plan?
+Student: I commmit to this plan!
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 3
+Advisor: That's okay. Sometimes we are all a little anxious. Let's brainstorm a few ideas for how we can improve our confidence.
+Advisor: What are some things we can do to feel more confident?
+Student: Not procrastinate.
+Advisor: I think those are some good ideas. Let's reassess your confidence
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 7
+Advisor: That's great to hear!
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: challenges
+Advisor: I'm sorry to hear that you've been experiencing challenges. Setbacks can occur in life and I am here to help.
+Session start: Fri Dec  6 21:20:38 2024
+Type 'exit' to end
+Advisor: Hi, Stefan!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Please enter yes, no, or not sure:
+Student: yes
+Advisor: That's great! What is your idea?
+Student: I want to study for finals.
+Advisor: It seems you have already planned that idea. Did you have another idea you would like to try or would you like me to suggest some ideas?
+Advisor: Enter 'idea' to suggest another idea or 'help' if you would like suggestions
+Student: I want to get my projects done.
+Advisor: Sorry, I didn't understand that
+Advisor: Enter 'idea' to suggest another idea or 'help' if you would like suggestions
+Student: idea
+Advisor: That's great! What is your idea?
+Student: I want to get my projects done.
+Advisor: That sounds like a great plan!
+Advisor: Goals are a lot easier to achieve when they are clearly defined.
+A good method is to make sure that your goals are SMART.
+SMART means that goals should be Specific, Measurable, Achievable, Relevant, and Time-Bound.
+I'd like to ask you a few more questions about your idea.
+Advisor: Can you give a specific action you want to take?
+Student: I want to finish preparing the presentation for my CS723 course.
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: On Fridays after class.
+Advisor: Where do you want to do this?
+Student: At home.
+Advisor: How often do you want to do this?
+Student: Every other day.
+Advisor: What date do you want to start?
+Student: In two days.
+Advisor: I'm sorry, but that doesn't seem like a date.
+Advisor: What date do you want to start?
+Student: November 8th.
+Advisor: That sounds like a great plan!
+Advisor: Could you share a statement of commitment for this plan?
+Student: Commit.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 3
+Advisor: That's okay. Sometimes we are all a little anxious. Let's brainstorm a few ideas for how we can improve our confidence.
+Advisor: What are some things we can do to feel more confident?
+Student: Plan ahead.
+Advisor: I think those are some good ideas. Let's reassess your confidence
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 7
+Advisor: That's great to hear!
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: challenges
+Advisor: I'm sorry to hear that you've been experiencing challenges. Setbacks can occur in life and I am here to help.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 7
+Advisor: That's great to hear!
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: challenges
+Advisor: I'm sorry to hear that you've been experiencing challenges. Setbacks can occur in life and I am here to help.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 3
+Advisor: That's okay. Sometimes we are all a little anxious. Let's brainstorm a few ideas for how we can improve our confidence.
+Advisor: What are some things we can do to feel more confident?
+Student: I dunno
+Advisor: I think those are some good ideas. Let's reassess your confidence
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 3
+Advisor: Sorry to hear that you still aren't confident in your plan. Let me suggest some new ideas.
+Advisor: 1. Set aside a specific time to study and work on assignments
+Advisor: 2. Go to the CEAS tutoring center in the library
+Advisor: 3. Find and apply for internships
+Advisor: Please let me know which one you would like!
+Advisor: Enter the integer corresponding to the idea.
+Student: 2
+Advisor: Goals are a lot easier to achieve when they are clearly defined.
+A good method is to make sure that your goals are SMART.
+SMART means that goals should be Specific, Measurable, Achievable, Relevant, and Time-Bound.
+I'd like to ask you a few more questions about your idea.
+Advisor: Can you give a specific action you want to take?
+Student: Go to the CEAS tutoring center and get help for CS.
+Advisor: What time do you want to do this? E.g., on Fridays, before school every Tuesday,
+Student: before school every Tuesday
+Advisor: Where do you want to do this?
+Student: In the library.
+Advisor: How often do you want to do this?
+Student: Never.
+Advisor: What date do you want to start?
+Student: Tomorrow
+Advisor: That sounds like a great plan!
+Advisor: Could you share a statement of commitment for this plan?
+Student: Commit
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 11
+Advisor: Sorry, that number isn't valid.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 0
+Advisor: Sorry, that number isn't valid.
+Advisor: On a scale of 1 to 10, how confident are you in your plan?
+Student: 10
+Advisor: That's great to hear!
+Advisor: How has it been going with your plan since we last talked? Any challenges or successes you would like to share?
+Advisor: Enter 'challenges' or 'successes'
+Student: successes
+Session start: Fri Dec  6 21:41:43 2024
+Type 'exit' to end
+Advisor: Hi, Stefan!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Goodbye!
+Session end: Fri Dec  6 21:41:44 2024
+Advisor: Please enter yes, no, or not sure:
+Student: exit
+Advisor: I'm sorry, I didn't quite understand that.
+Advisor: Goodbye!
+Session end: Fri Dec  6 21:41:44 2024
+Session start: Fri Dec  6 21:43:00 2024
+Type 'exit' to end
+Advisor: Hi, Stefan!
+Advisor: Welcome back. I hope you've been well!
+Advisor: Do you have anything you would like to do for your classes in the next week or two?
+Advisor: Goodbye!
+Session end: Fri Dec  6 21:43:03 2024
+Advisor: Please enter yes, no, or not sure:
