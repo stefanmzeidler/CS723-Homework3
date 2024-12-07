@@ -286,6 +286,11 @@ class AcademicAdvisor(Machine):
             self.generate_behavior_menu()
 
     def offer(self,event):
+        """
+        Asks if the user would like to have a check in on their progress. If yes, proceeds to CHECK_ON_PROGRESS.
+        Otherwise, proceeds to GOODBYE
+        :param event: Not used.
+        """
         self.log_output("Would you like to have a check-in to see how your goal is progressing?")
         response = self.check_if_response_is_valid_string("Please enter 'yes' or 'no'",['yes', 'no'])
         match response:
@@ -296,6 +301,11 @@ class AcademicAdvisor(Machine):
 
 
     def progress_check(self,event):
+        """
+        Asks the user to assess their progress on their goal. If they are experiencing challenges, proceeds to CONFIDENCE_CHECK.
+        If they are experiencing success, proceeds to SUCCESS_REFLECTION
+        :param event: Not used.
+        """
         self.log_output("How has it been going with your plan since we last talked? Any challenges or successes you would like to share?")
         response = self.check_if_response_is_valid_string("Enter 'challenges' or 'successes'", ['challenges', 'successes'])
         match response:
@@ -311,6 +321,11 @@ class AcademicAdvisor(Machine):
         return response
 
     def reflect_on_success(self,event):
+        """
+        Asks the user to reflect on their success and what factors contributed to it. Then asks if they have a new goal,
+        would like goal suggestions, or  are finished. Proceeds to IDEA_CHECK, BEHAVIOR_MENU, or GOODBYE.
+        :param event: Not used.
+        """
         response = self.log_interaction("That’s fantastic to hear! What do you think helped you achieve this? Let’s build on that success!")
         self.log_output("You should keep these things in mind going forward, and I hope you experience even more success!")
         self.log_output("Do you have a new or more specific goal you'd like to so in light of your success? I can also suggest new ideas or if you are feeling good about things we can end here for today")
@@ -325,6 +340,11 @@ class AcademicAdvisor(Machine):
                 self.farewell()
 
     def ask_for_new_plan(self,event):
+        """
+        Asks if the user would like additional help o or are finished for today. Proceeds to IDEA_CHECK or
+        to FINAL_DUMMY and exits.
+        :param event: not used.
+        """
         self.log_output("Please let me know if you need any additional help or if you would like to end the session for today")
         response = self.check_if_response_is_valid_string("Please enter 'help' or 'end'", options = ['help', 'end'])
         match response:
@@ -334,16 +354,19 @@ class AcademicAdvisor(Machine):
                 self.end_session()
 
     def session_end(self, event):
+        """
+        If session is ending, bid adieu to the user.
+        :param event:
+        """
         self.log_output(f"It was great meeting with you today, {self.user_name}.")
         self.log_output("Goodbye!")
         self.log_output("Session end: " + time.ctime(), advisor=False)
         exit(0)
 
-
     def handle_error(self, event):
         print("an error has occurred")
         print(event.error)
-        self.session_end(event)
+        self.force_end_session()
 
 
 def main():
